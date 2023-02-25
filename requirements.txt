@@ -4,6 +4,7 @@ cloudinary==1.32.0
 dj-database-url==1.2.0
 dj3-cloudinary-storage==0.0.6
 Django==3.2.18
+django-summernote==0.8.20.0
 docopt==0.6.2
 gunicorn==20.1.0
 Markdown==3.4.1
