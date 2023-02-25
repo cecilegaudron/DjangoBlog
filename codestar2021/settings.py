@@ -91,8 +91,7 @@ WSGI_APPLICATION = 'codestar2021.wsgi.application'
 #}
 
 DATABASES = {
-   'default': 
-   dj_database_url.parse(os.environ.get("postgres://tfoiygpj:VaTKcJh2JJv9oUcY9n-kxXDNZFSxj0UW@mouse.db.elephantsql.com/tfoiygpj"))
+   'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
 
